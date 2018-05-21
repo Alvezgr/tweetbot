@@ -4,11 +4,11 @@ this bot runs in heroku and is a Django application that shows the selected twee
 
 The requirements are:
 
-django = "*" \n
-gunicorn = "*"
-django-heroku = "*"
-requests = "*"
-"bs4" = "*"
-tweepy = "*"
+django
+gunicorn
+django-heroku
+requests
+bs4
+tweepy
 
 All these requirements are easily installed with pip.
