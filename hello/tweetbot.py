@@ -6,11 +6,11 @@ from .chistes import get_chistes
 from .didyouk import dykList
 #accesing twitter
 def access_twitter():
-	cosumer_key = 'NQM9O0zVCNcL4qaxaFQuIvi4E'
-	cosumer_secret = 'NRedyvcHyqLdjWVxOn1XVZHhzMUUFJvWzoCmgqE5jsbEVuwC5W'
+	cosumer_key = 'Your consumer_key'
+	cosumer_secret = 'Your consumer secret'
 
-	access_token = '492774028-jCMFPK1U2HCyJX1F3xCqRsUhoTcoPJojr20jKOvu'
-	access_token_secret = '3Tppv5CzleUot3kATbJ4ScVTBcBJlEjZ8IC1p1HcBasht'
+	access_token = 'Your Access token'
+	access_token_secret = 'Your Access token secret '
 
 	auth = tweepy.OAuthHandler(cosumer_key, cosumer_secret)
 	auth.set_access_token(access_token,access_token_secret)
